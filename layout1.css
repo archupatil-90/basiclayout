@@ -6,40 +6,33 @@ body{
 
 #header{
     width:90%;
-    height:70px;
     background-color: #333333;
     margin: auto;
 }
 .header-container{
     width:70%;
-    height:70px;
     margin: auto;
 }
 .header-container h3{
     color: #979797;
     font-size: 20px;
-    padding-top: 10px;
+    padding: 10px;
     margin: 0;
     font-weight: normal;
 }
 #container{
     width:90%;
-    height:350px;
+    overflow: auto;
     background-color:white;
     margin: auto;
 }
 .header-container .left{
      width:46%;
-     height:230px;
      background-color:#dddddd;
      padding:15px;
-     float: left;
 
 }
 .left .img1{
-float:right;
-width:125px;
-height: 125px;
 border: 1px solid black;
 margin: 0px 16px 14px 22px;
 }
@@ -68,8 +61,7 @@ p{
 
 .header-container .right{
     width:46%;
-    height:340px;
-    float: left;
+
     padding: 15px;
     
 }
@@ -78,19 +70,29 @@ p{
     font-size: 11px;
     
 }
+.right #p2{
+    text-align: end;
+}
 .right .img2{
-    float: left;;
+    
 
 border: 1px solid black;
 margin: 0px 20px 0px 0px;
 }
 footer{
     width:90%;
-    height:200px;
     background-color: #333333;
     margin: auto;
+    overflow: auto;
 }
 h4{
-    float: left;
+    
     color: gray;
+}
+.f-left{
+    float: left;
+
+}
+.f-right{
+    float: right;
 }
